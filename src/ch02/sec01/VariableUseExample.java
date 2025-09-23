@@ -11,7 +11,15 @@ public class VariableUseExample {
 		
 		int totalMinute=(hour*60) +minute;
 		System.out.println("총 " + totalMinute);
-
+		
+		int x = 11;
+		int y = 15;
+		int temp = x;
+		x = y;
+		System.out.println("x: " + x);
+		System.out.println("y: " + y);
+		System.out.println("temp: " + temp);
+		
 	}
 
 }
