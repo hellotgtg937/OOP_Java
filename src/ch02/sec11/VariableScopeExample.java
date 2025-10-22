@@ -10,6 +10,7 @@ public class VariableScopeExample {
 		if (v1 > 10) {
 			v2 = v1 - 10;
 		}
+		
 		int v3 = v1 + v2 + 5;
 		System.out.println(v3);
 	}

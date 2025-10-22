@@ -40,7 +40,12 @@ public class MultidimensionalArrayByValueListExample {
 		int totalSum = 0;
 		for (int i = 0; i < scores.length; i++) {
 			totalStudent += scores[i].length;
+			for (int k = 0; k < scores[i].length; k++) {
+				totalSum += scores[i][k];
+			}
 		}
+		double totalAvg = (double) totalSum/totalStudent;
+		System.out.println("전체 학생의 평균 점수: " + totalAvg);
 		
 	}
 		
